@@ -1,0 +1,15 @@
+{
+  "name": "log_parser",
+  "version": "1.0.0",
+  "description": "The task is to parse a log file containing HTTP requests and to report on its contents.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js data/programming-task-example-data.log",
+    "test": "jest"
+  },
+  "author": "Parry Lee",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
